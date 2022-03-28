@@ -1,0 +1,20 @@
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vim
+	autocrlf = false
+	safecrlf = true
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate
+  type = cat-file -t
+  dump = cat-file -p
+  l = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[init]
+	defaultBranch = main
+[user]
+	name = Keagan Luttrell
+	email = <example>@<email>.com
